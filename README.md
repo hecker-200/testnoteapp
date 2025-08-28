@@ -1,30 +1,31 @@
-# TestNoteApp
-A simple **Notepad App** built using **FastAPI**, **MongoDB**, and **TailwindCSS**.
+# Test Note App  
+A simple **Notepad application** built with **FastAPI**, **MongoDB**, and **Bootstrap**.  
 
 ## Features
-- Create, update, and delete notes
-- FastAPI backend with MongoDB for storage
-- Clean, responsive UI powered by TailwindCSS
+- Create, edit, and delete notes  
+- FastAPI backend with MongoDB for storage  
+- Responsive Bootstrap frontend  
 
 ## Tech Stack
-- **Backend**: FastAPI
-- **Database**: MongoDB
-- **Frontend**: TailwindCSS
+- **Backend:** FastAPI  
+- **Database:** MongoDB  
+- **Frontend:** Bootstrap  
 
-## Setup
-1. Clone the repo  
+## How to Run
+1. Clone the repository  
    ```bash
    git clone https://github.com/hecker-200/testnoteapp.git
    cd testnoteapp
    ```
-2. Install dependencies and run FastAPI  
+
+2. Install dependencies  
    ```bash
    pip install -r requirements.txt
+   ```
+
+3. Run the FastAPI server  
+   ```bash
    uvicorn main:app --reload
    ```
 
-3. Access app at: http://127.0.0.1:8000
-
----
-Made with ❤️ by hecker-200
-
+4. Access the app at [http://localhost:8000](http://localhost:8000)
